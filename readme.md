@@ -5,17 +5,17 @@
 Внешний вид:
 
 
-![outlook](images/outlook.jpg)
+![outlook](images/outlook.png)
 
 
 Данные также можно загружать в файл и из файла, помимо этого все полученные данные пишутся во "второе окно", 
 в которое можно перейти нажав на кнопку "Таблица" в левой панели управления приложения.
 
 
-![table](images/table.jpg)
+![table](images/table.png)
 
 
 Настройка окна ком-порта
 
 
-![serial_port_settings](images/serial_port_setting.jpg)
+![serial_port_settings](images/serial_port_setting.png)
