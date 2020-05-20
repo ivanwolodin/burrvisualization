@@ -19,3 +19,6 @@
 
 
 ![serial_port_settings](images/serial_port_settings.png)
+
+
+Помимо этого, реализован функционал скриншотов
