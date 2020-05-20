@@ -18,4 +18,7 @@
 Настройка окна ком-порта
 
 
-![serial_port_settings](images/serial_port_setting.png)
+![serial_port_settings](images/serial_port_settings.png)
+
+
+Помимо этого, реализован функционал скриншотов
