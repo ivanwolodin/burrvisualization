@@ -1,24 +1,44 @@
-Приложение, написанное для связывание с софтом нижнего уровня (с Embedded system).
+# Serial Port Data Visualizer
 
-Графическое приложение считывает данные из ком-порта и строит по ним 3D график. 
+A desktop application for communication with low-level software and embedded systems.
 
-Внешний вид:
+The application reads data from a serial (COM) port and visualizes it as a 3D plot.
 
+## Features
 
-![outlook](images/outlook.png)
+- Reading data from a serial port
+- Configuring serial port settings
+- Real-time 3D data visualization
+- Saving data to a file and loading it from a file
+- Viewing collected data in a separate table window
+- Taking screenshots of the visualization
 
+## Screenshots
 
-Данные также можно загружать в файл и из файла, помимо этого все полученные данные пишутся во "второе окно", 
-в которое можно перейти нажав на кнопку "Таблица" в левой панели управления приложения.
+### Main Window
 
+![Main Window](images/outlook.png)
 
-![table](images/table.png)
+### Data Table
 
+All received data is also displayed in a separate table window, accessible via the **Table** button in the left control panel.
 
-Настройка окна ком-порта
+![Data Table](images/table.png)
 
+### Serial Port Settings
 
-![serial_port_settings](images/serial_port_settings.png)
+![Serial Port Settings](images/serial_port_settings.png)
 
+## Getting Started
 
-Помимо этого, реализован функционал скриншотов
+### Installation
+
+```bash
+pip install -r requirements.txt
+```
+
+### Running the Application
+
+```bash
+python main.py
+```
